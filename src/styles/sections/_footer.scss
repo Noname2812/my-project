@@ -1,0 +1,40 @@
+footer {
+  background-color: #69748a;
+  box-shadow: 0 0 2rem 0 #69748a;
+  color: #e1ecf1;
+  div.container {
+    > * {
+      padding: 1rem 0;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+    ul li {
+      margin: 0.5rem 0;
+      a {
+        display: flex;
+        color: #e1f1ec;
+        height: 1.2rem;
+        align-items: center;
+        gap: 0.3rem;
+        font-size: 1rem;
+        line-height: 1.2rem;
+      }
+      :hover {
+        color: rgb(51, 202, 20);
+      }
+    }
+  }
+  .line {
+    display: block;
+    text-indent: -999px;
+    width: 100%;
+    border: 0.5px solid white;
+    opacity: 0.4;
+    padding: 0;
+  }
+}
+.list-social {
+  justify-content: end;
+  column-gap: 1rem;
+}

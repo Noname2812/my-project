@@ -1,0 +1,48 @@
+.wrap-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-search {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  &-input {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-right: 1.25rem;
+    &-icon {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+    &-text {
+      border: 1px solid rgba(0, 0, 0, 0.055);
+      border-radius: 1rem;
+      width: 384px;
+      height: 2.5rem;
+      padding-left: 1rem;
+    }
+  }
+  &-button {
+    height: 2.5rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(203, 203, 211);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.visible {
+  cursor: pointer;
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}

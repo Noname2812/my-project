@@ -1,0 +1,27 @@
+.pagination {
+  margin-top: 2rem;
+  text-align: center;
+  .ant-select-selector {
+    display: none;
+  }
+  .ant-select-arrow {
+    display: none;
+  }
+}
+.block-fillter {
+  text-align: center;
+  width: 100%;
+  > * {
+    margin: 1rem 0;
+  }
+  &-fillter {
+    > * {
+      margin: 0.2rem 1rem;
+    }
+  }
+  .block-sort {
+    > * {
+      margin: 0.2rem 1rem;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.container {
+  max-width: 1184px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+body {
+  background-color: rgb(250, 250, 249);
+}
+.spin {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+// @media only screen and (max-width: 390px) {
+//   .container {
+//     max-width: 380px;
+//     margin: 0 auto;
+//   }
+// }

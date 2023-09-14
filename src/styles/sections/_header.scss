@@ -1,0 +1,44 @@
+.menu-header {
+  background-color: black;
+}
+header {
+  border-bottom: 0.8px solid rgba(0, 0, 0, 0.2);
+}
+.header-list {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+
+  &-item {
+    display: inline-block;
+    height: 4rem;
+    &-text {
+      display: inline-block;
+      line-height: 4rem;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 0 0.5rem;
+      color: white;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.856);
+        color: black;
+      }
+    }
+  }
+}
+.logo {
+  background-color: transparent;
+  padding: 15px 0;
+  text-align: center;
+  &-image {
+    max-width: 350px;
+    cursor: pointer;
+  }
+}
+.active {
+  background-color: rgba(255, 255, 255, 0.856);
+  > * {
+    color: black;
+  }
+}
